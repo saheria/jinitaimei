@@ -1,0 +1,117 @@
+/* 头部 */
+header{
+    border-bottom: 2px solid #c81523;
+    margin-bottom: 10px !important;
+    
+}
+/* 注册表单 */
+.zhuce{
+    height: 520px;
+    border: 1px solid #ececec;
+    border-top: transparent;
+   
+}
+/* 表单头部 */
+.hd{
+    height: 40px;
+    padding: 0 10px;
+    line-height: 40px;
+    background-color: #ececec;
+}
+.hd h2{
+    float: left;
+    font-weight: normal;
+    font-size: 18px ;
+}
+.hd span{
+    float: right;
+    font-size: 14px;
+}
+
+.hd a{
+    color: #c81523;
+}
+/* 表单内容 */
+.bd{
+    padding-top: 34px;    
+}
+.bd label,button{
+    font-size: 14px;
+}
+/* 输入框样式 */
+.bd input[type="number"],input[type="tel"],input[type="password"]{
+    width: 240px;
+    height: 35px;
+    border: 1px solid #000;
+    margin-top: 20px;
+
+}
+/* 输入框对齐 */
+.bd label[for="tel"]{
+    margin-left: 342px;
+}
+.bd label[for="yanzhengma"]{
+    margin-left: 314px;
+
+}
+.bd label[for="password"],label[for="checkpassword"]{
+    margin-left: 328px;
+
+}
+.bd input[type="checkbox"]{
+    margin: 40px 5px 0 398px;
+    vertical-align: -0.15em;
+   
+}
+/* 密码强度 */
+.qiangdu{
+    margin: 10px 0 0 478px;
+}
+.qiangdu i{
+    margin-right: 12px;
+    color: #b2b2b2;
+}
+.qiangdu em{
+    display: inline-block;
+    width: 33px;
+    text-align: center;
+    color: #fff;
+}
+.qiang{
+    background-color: #f79100;
+
+}
+.middle{
+    background-color: #40b83f;
+
+}
+.ruo{
+    background-color: #de1111;
+}
+/* 字体颜色 */
+.bd span{
+    color: #c81523;
+}
+.bd span::before{
+    content: '\e616';
+    font-family: 'iconfont';
+    font-size: 20px;
+    vertical-align: -0.15em;
+}
+.bd a{
+    margin-left: 10px;
+    color: #1ba1e6;
+}
+/* 按钮 */
+.bd button{
+    width: 200px;
+    height: 30px;
+    margin: 48px 0 0 405px;
+    color: #fff;
+    background-color: #c81523;
+}
+/* 底部 */
+footer{
+    height: 120px;
+    background-color: #fff;
+}

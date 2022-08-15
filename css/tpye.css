@@ -1,0 +1,99 @@
+header>img{
+    position: absolute;
+    top: 13px;
+    left: 184px ;
+    height: 30px;
+    width: 70px;
+    
+}
+
+nav li{
+    float: left;
+}
+
+/* 左侧导航栏 */
+
+.left a{
+    margin: 0 28px;
+    font-weight: 700;
+}
+
+
+/* 右侧导航栏 */
+.right li{
+    height: 45px;
+}
+.right a{
+    margin: 0 23px;
+    font-size: 14px ;
+
+}
+/* 版心 */
+.banner{
+    height: 120px;
+    margin-bottom: 25px;
+    padding-top: 30px;
+    background-image: url(../images/39.png);
+    text-align: center;
+}
+
+.banner h2{
+    font-size: 24px;
+    color: #c81523;
+    margin-bottom: 10px;
+}
+.banner span{
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+/* 商品列表 */
+.goods li{
+    position: relative;
+    float: left;
+    width: 289px;
+    height: 457px;
+    margin:0 10px 10px  0;
+    padding: 0 10px;
+    font-size: 14px;
+}
+.goods li:hover{
+    border:1px solid #c81523;
+}
+.goods img{
+    width: 100%;
+}
+.goods h3{
+    display: inline-block;
+    margin: 10px 5px 10px 0;
+    color: #c81523;
+}
+.jindutiao{
+    display: inline-block;
+}
+.jindutiao .left{
+    float: left;
+    width: 116px;
+    height: 12px;
+    border-radius:6px 0 0 6px ;
+    background-color: #c81523;
+}
+.jindutiao .right{
+    float: left;
+    height: 12px;
+    width: 14px;
+    border-radius: 0 6px 6px 0;
+    border: 1px solid #c81523;
+}
+.goods span{
+    color: #c81523;
+}
+.goods button{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 289px;
+    height: 47px;
+    background-color: #b1191a;
+    color: #fff;
+}

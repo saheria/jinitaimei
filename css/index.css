@@ -1,0 +1,650 @@
+
+/* 公共标签部分 */
+.caption {
+    height: 40px;
+    line-height: 40px;
+}
+
+.caption h2 {
+    float: left;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+
+/* 导航栏左方列表 */
+.left {
+    float: left;
+    width: 210px;
+    background-color: #c81623;
+    color: #fff;
+}
+
+.left h2 {
+    background-color: #b1191a;
+    text-align: center;
+    font-size: 18px;
+}
+
+.left li {
+    position: relative;
+    height: 31px;
+    padding: 0 10px;
+    line-height: 31px;   
+    z-index: 1;
+}
+.left a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+.left li:hover {
+    background-color: #fff;
+}
+
+.left li:hover a{
+    color: #c81623;
+}
+
+.left li span {
+    float: right;
+}
+
+/* 导航栏右方列表 */
+.right ul {
+    float: left;
+    margin-left: 20px;
+}
+
+.right li {
+    float: left;
+
+}
+
+.right a {
+    margin: 0 20px;
+}
+
+/* 版心 */
+.banner {
+    position: relative;
+    height: 465px;
+    margin-top:10px ;
+    padding-top: 10px;
+}
+/* 版心中间的图片 */
+.focus img {
+    position: absolute;
+    right:260px ;
+    height: 455px;
+    width: 720px;   
+}
+
+/* 版心右侧新闻 */
+.news {
+    float: right;
+    width: 250px;
+    border: 1px solid #e4e4e4;
+    border-bottom: transparent;
+}
+
+/* 版心右侧上方标题 */
+.news-hd {
+    padding: 0 15px;
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px dashed #e4e4e4;
+}
+
+.news-hd h2 {
+    float: left;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.news-hd a {
+    float: right;
+}
+.news-hd a::after{
+    content: '\e625';
+    font-family: "iconfont" ;
+    margin-left: 5px;
+    
+}
+
+/* 版心右侧第一个列表 */
+.news-bd {
+    height: 130px;
+    padding: 5px 0 5px 15px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.news-bd li {
+    height: 25px;
+    line-height: 25px;
+
+}
+/* 版心右侧第二个列表 */
+.lifeservice li {
+    float: left;
+    width: 62px;
+    height: 70px;
+    padding-top: 5px;
+    text-align: center;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.lifeservice li:nth-child(4n){
+    border-right: none;
+}
+.bargain{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+/* 今日推荐 */
+.tuijian {
+    height: 160px;
+    margin-top: 10px !important;
+    background-color: #ebebeb;
+}
+
+/* 列表排列 */
+.tuijian li {
+    position: relative;
+    float: left;
+    width: 248.5px;
+    height: 160px;
+    padding: 15px 0 0 20px;
+    border-right: 1px solid #ddd;
+}
+/* 定位图片 */
+.tuijian li img{
+    position: absolute;
+    top: 25px;
+    right:30px ;
+}
+/* 定义字体样式 */
+.tuijian li h3 {
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+
+}
+
+.tuijian li i {
+    display: inline-block;
+    padding: 0 3px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 14px;
+    background-color: teal;
+}
+
+.tuijian li a {
+    display: inline-block;
+    width: 55px;
+    height: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #e2162f;
+    border-radius: 10px;
+    text-align: center;
+}
+/* 第一个li的样式不一样 */
+.tuijian li:first-of-type {
+    width: 206px;
+    background-color: #5c5251;
+    padding-top: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.tuijian li:first-of-type h2 {
+    font-size: 18px;  
+}
+
+/* 猜你喜欢 */
+.like {
+    height: 272px;
+    margin-top: 20px !important;
+}
+/* 表签区域 */
+.like .caption a {
+    float: right;
+    padding-right: 20px;
+}
+.like .caption a::after{
+    content: '\e65f';
+    font-family: "iconfont";
+    font-size: 20px;
+    vertical-align: -0.15em;
+    margin-left: 5px;
+}
+/* 内容区域 */
+.like ul {
+    height: 232px;
+    padding-bottom: 10px;
+    border: 1px solid #e4e4e4;
+}
+
+.like li {
+    position: relative;
+    float: left;
+    width: 199.5px;
+    height: 100%;
+}
+
+.like span {
+    font-size: 16px;
+    color: #df3303;
+}
+
+.tupian{
+    height: 160px;
+    line-height: 160px;
+    text-align: center;
+}
+.content {
+    height: 70px;
+    padding: 0 35px;
+    height: 60px;
+    width: 100%;
+    text-align: left;
+    border-right: 1px solid #e4e4e4;
+}
+
+/* 有趣区 */
+.interesting {
+    height: 444px;
+    margin-top: 18px !important;
+
+}
+
+.interesting ul {
+    height: 404px;
+    border: 1px solid #e4e4e4;
+}
+
+.interesting li {
+    position: relative;
+    float: left;
+    height: 100%;
+}
+
+.interesting h2 {
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.interesting p {
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.interesting h3 {
+    height: 40px;
+    margin: 0 20px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    border-bottom: 1px dashed #e4e4e4;
+}
+
+.interesting span {
+    font-size: 12px;
+    color: #df3033;
+}
+
+.interesting img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* 第一个li */
+.one {
+    width: 404px;
+    padding: 25px 0 0 20px;
+    background-color: #b8bddd;
+    color: #3b468d;
+}
+
+.one h2 {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.one p {
+    font-size: 16px;
+}
+
+.one img {
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+}
+
+/* 第二个li */
+.two {
+    width: 226px;
+}
+
+/* 第二个li上方div */
+.two div:nth-of-type(1) {
+    position: relative;
+    height: 208px;
+    padding: 60px 0 0 10px;
+
+}
+
+.two div:nth-of-type(1) img {
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+}
+
+/* 第二个li下方div */
+.two div:nth-of-type(2) {
+    height: 156px;
+    padding: 42px 0 0 10px;
+}
+
+/* 第三个li */
+.three {
+    width: 404px;
+    background-color: #f7f7f7;
+}
+
+/* 第三个li上方div */
+.three div {
+    position: relative;
+    height: 208px;
+    padding: 60px 0 0 50px;
+
+}
+
+.three div img {
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+}
+
+/* 第三个li下方列表 */
+.three ul {
+    height: 156px;
+    border: none;
+}
+
+.three li {
+    position: relative;
+    width: 50%;
+    padding: 42px 0 0 10px;
+}
+
+/* 第四个li */
+.four {
+    width: 164px;
+    line-height: 404px;
+}
+
+.four img {
+    width: 100%;
+}
+
+/* 右侧边框 */
+.two,
+.three,
+.three li:nth-of-type(1) {
+    border-right: 1px solid #e4e4e4;
+}
+
+/* 底部边框 */
+.two div:nth-of-type(1),
+.three div {
+    border-bottom: 1px solid #e4e4e4;
+}
+
+
+/* 家电 */
+.family {
+    height: 400px;
+    margin: 15px auto 20px !important;
+}
+
+.family li {
+    float: left;
+}
+
+/* 标签 */
+.family .caption {
+    border-bottom: 2px solid #c81623;
+}
+
+.family .caption h2 {
+    color: #c81623;
+}
+
+.family .tablist ul{
+    float: right;
+}
+.family .tablist  a {
+    font-size: 12px;
+    padding: 0 12px;
+    border-right: 1px solid #333;
+}
+
+/* 子ul */
+.tabcontent>ul>li {
+    position: relative;
+    width: 220px;
+    height: 358px;
+}
+
+/* li里的子div  */
+.tabcontent li>div {
+    position: relative;
+    height: 50%;
+    padding: 20px 0 0 15px;
+
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.tabcontent li>div img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+.tabcontent p {
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.tabcontent span {
+    font-size: 14px;
+    color: #c81623;
+}
+/* 第一个li */
+.tabcontent .yi {
+    width: 210px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+.yi ul {
+    height: 90px;
+    margin-bottom: 25px;
+}
+
+.yi a {
+    display: inline-block;
+    height: 30px;
+    width: 85px;
+    margin-left: 12px;
+    font-size: 12px;
+    line-height: 30px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.yi p {
+    font-size: 18px;
+    color: #c81623;
+}
+
+.yi span {
+    font-size: 12px;
+}
+
+.yi img {
+    position: absolute;
+    bottom: 37px;
+    right: 30px;
+}
+
+/* 第二个li */
+.tabcontent .er {
+    width: 330px;
+    padding: 35px 0 0 30px;
+    color: #066c7d;
+    background-color: #aed6d8;
+}
+
+.er p {
+    margin: 0;
+}
+
+.er p:nth-of-type(2) {
+    font-size: 16px;
+}
+
+.er img {
+    position: absolute;
+    bottom: 30px;
+    left: 56px;
+
+}
+
+/* 第三个li */
+.san {
+    text-align: center;
+    border: 1px solid #e4e4e4;
+    border-top: transparent;
+}
+
+.san p {
+    margin-top: 65px;
+
+}
+
+.san span {
+    font-size: 14px;
+    color: #e4e4e4;
+
+}
+
+.san img {
+    margin-top: 80px;
+}
+
+/* 最后一个li里的第二个div*/
+ .family li:last-of-type div:nth-of-type(2) { 
+    border-right: 1px solid #e4e4e4;
+}
+
+/* 疯抢 */
+.feng {
+    height: 320px;
+    margin: 20px auto 0 !important;
+
+}
+
+.feng>ul {
+    height: 280px;
+    border-top: 1px solid #e4e4e4;
+}
+
+.feng li {
+    float: left;
+}
+
+.feng>ul>li {
+    height: 100%;
+}
+.feng p{
+    /* height: 20px;  */
+    line-height: 20px; 
+    font-weight: normal;
+    font-size: 12px;
+}
+.feng span{
+    font-size: 16px;
+    color: #df3033;
+}
+.feng>ul>li:nth-of-type(1) {
+    width:238px ;
+    padding-left: 27px;
+    border-left: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+
+}
+.feng>ul>li:nth-of-type(1) div{
+    margin:35px auto 60px;
+    text-align: center;
+}
+.feng>ul>li:nth-of-type(2) {
+    width:660px ;
+    
+}
+.feng>ul>li:nth-of-type(2) li{
+    width: 220px;
+    height: 139.5px;
+    padding: 20px 10px 0 ;
+    border-left: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+.feng>ul>li:nth-of-type(2) li img{
+   float: left;
+   margin-right: 5px;
+}
+.feng>ul>li:nth-of-type(3) {
+    width:300px ;
+    border: 1px solid #e4e4e4;
+    border-top: transparent;
+}
+.feng>ul>li:nth-of-type(3) li{
+    height: 85px;
+    margin: 35px 0 0 18px;
+}
+.feng>ul>li:nth-of-type(3) li span{
+    font-size: 12px;
+   color: #000;
+
+}
+.feng>ul>li:nth-of-type(3) li div{
+    float:left;
+    height: 52px;
+    width: 165px;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+.feng>ul>li:nth-of-type(3) li div p{
+    height: 20px;
+    margin: 6px auto;
+    font-size: 12px;
+    line-height: 20px;
+}
+.feng>ul>li:nth-of-type(3) li img:first-of-type{
+    float: left;
+    margin: 10px 20px 0 0 ;
+    
+}
+
+
